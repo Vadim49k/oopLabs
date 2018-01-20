@@ -1,5 +1,4 @@
 #include "..\lab1\IniParser.h"
-#include "..\lab1\Exception.h"
 #include <exception>
 
 IniParser::IniParser() {
