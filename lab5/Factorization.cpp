@@ -75,7 +75,7 @@ void Factorization::factLoop() {
 			if (!numbers.empty()) {
 				uint64_t curNumber = numbers.front();
 				numbers.pop();
-				std::cout << curNumber << "\n";
+				//std::cout << curNumber << "\n";
 				queue_lock.unlock();
 
 				factorize(curNumber, factorization);
